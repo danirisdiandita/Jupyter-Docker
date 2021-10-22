@@ -1,4 +1,4 @@
-# Deploying our own Jupyter Notebook from Docker
+# Deploying you own Jupyter Notebook using Docker
 
 
 ## Jupyter Notebook 
