@@ -1,5 +1,6 @@
 # Deploying you own Jupyter Notebook using Docker
 
+full tutorial is from here: https://u.group/thinking/how-to-put-jupyter-notebooks-in-a-dockerfile/
 
 ## Jupyter Notebook 
 ```
