@@ -1,0 +1,11 @@
+version: '3'
+
+services: 
+  jupyter-notebook: 
+    container_name: jupyter-notebook 
+    build: . 
+    ports: 
+      - 8845:8888
+    volumes: 
+      - ./workspace:/var/www/data/workspace
+    

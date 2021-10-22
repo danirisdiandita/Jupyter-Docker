@@ -1,0 +1,13 @@
+version: '3'
+
+services: 
+  jupyter-lab: 
+    container_name: jupyter-lab 
+    build: 
+      context: .
+      dockerfile: Dockerfile.lab  
+    ports: 
+      - 8846:8888
+    volumes: 
+      - ./workspace:/var/www/data/workspace
+    
